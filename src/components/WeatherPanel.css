@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.weather-panel {
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-bar input {
+    height: 50px;
+    width: 500px;
+
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 25px;
+
+    font-family: "Roboto Mono", monospace;
+}
+
+.stat-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+}
+
+.temperature-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+.location-title {
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    color: #ededed;
+    margin: 0;
+    font-size: 20px;
+}
+
+.temp {
+    color: #ededed;
+}
+.temp p {
+    font-size: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+   
+    gap: 0;
+   
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+}
+
+.temperature-logo {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+.other-stats {
+    margin-top: 5%;
+    
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stat {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stat h1 {
+    font-size: 10px;
+    font-family: "Karla", sans-serif;
+
+    color: #c6c6c6;
+    margin-top: 10%;
+}
+.stat p { 
+    font-family: "Noto Sans JP", sans-serif;
+
+    color: #c6c6c6;
+    margin: 0;
+}
+
+.stat-logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    
+    border-radius: 25px;
+
+    margin-right: 5%;
+}
+
+
