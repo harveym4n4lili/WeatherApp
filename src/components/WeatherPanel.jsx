@@ -125,7 +125,7 @@ function WeatherPanel() {
                     <div className='stat-logo'>
                         <img src={humidity_icon}/>
                     </div>
-                    <div >
+                    <div className='stat-text'>
                         <h1>HUMIDITY</h1>
                         <p>{weatherData.humidity}%</p>
                     </div>
@@ -134,7 +134,7 @@ function WeatherPanel() {
                     <div className='stat-logo'>
                     <img src={pressure_icon}/>
                     </div>
-                    <div >
+                    <div className='stat-text'>
                         <h1>PRESSURE</h1>
                         <p>{weatherData.pressure} hPa</p>
                     </div>
@@ -143,7 +143,7 @@ function WeatherPanel() {
                     <div className='stat-logo'>
                         <img src={wind_icon}/>
                     </div>
-                    <div >
+                    <div className='stat-text'>
                         <h1>WIND</h1>
                         <p>{weatherData.wind} Km/h</p>
                     </div>
